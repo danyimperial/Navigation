@@ -76,8 +76,7 @@ const LoginScreen = ({ route, navigation }) => {
             <View style={LoginPageStyle.Container}>
                 <Image
                     style={LoginPageStyle.Logo}
-                    source={require('../assets/logo.webp')}
-                />
+                    source={require('../assets/logo.webp')} />
 
                 {/* Email Input */}
                 <TextInput
@@ -132,3 +131,4 @@ const LoginScreen = ({ route, navigation }) => {
 };
 
 export default LoginScreen;
+
